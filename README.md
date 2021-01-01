@@ -45,4 +45,14 @@ rustup update
 ```
 Rustup: the Rust installer and version management tool
 Cargo: the Rust build tool and package manager
+
+Packages: A Cargo feature that lets you build, test, and share crates
+Crates: A tree of modules that produces a library or executable
+```
+
+## Tools
+```
+Rustfmt: rustup component add rustfmt
+    rustup component add rustfmt
+    cargo fmt
 ```
