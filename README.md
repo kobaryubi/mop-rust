@@ -7,6 +7,11 @@ cargo build
 ## Run
 ```
 cargo run
+cargo run --bin <package-name>
+    cargo run --bin mop-rust
+    cargo run --bin audio_capturer
+cargo run --example <example-name>
+    cargo run --example audio_capturer
 ```
 
 ## Test
@@ -48,6 +53,7 @@ Cargo: the Rust build tool and package manager
 
 Packages: A Cargo feature that lets you build, test, and share crates
 Crates: A tree of modules that produces a library or executable
+    A binary or library
 ```
 
 ## Tools
@@ -55,4 +61,11 @@ Crates: A tree of modules that produces a library or executable
 Rustfmt: rustup component add rustfmt
     rustup component add rustfmt
     cargo fmt
+```
+
+## Crates
+### cpal
+```
+CPAL - Cross-Platform Audio Library
+    Low-level library for audio input and output in pure Rust.
 ```
